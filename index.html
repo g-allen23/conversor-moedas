@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <video src="assets/3752545-hd_1920_1080_24fps.mp4" autoplay muted loop class="video-background" nodownload></video>
+
+    <main>
+        <label for="" class="convert-from">
+            Converter <b>de</b>
+            <select name="real" id="real">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+            </select>
+        </label>
+
+        <label for="" class="convert-to">
+            Converter <b>para</b>
+            <select name="" id="convert">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+            </select>
+        </label>
+
+        
+        <label for="" class="label-value">
+            <b class="value">Valor:</b>
+            <input class="input-currency" placeholder="Digite um valor">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div>
+                <img src="assets/real.png" alt="logo-real-brasileiro" class="convert">
+
+                <p>Real</p>
+                <h1>R$ 0,00</h1>
+            </div>
+
+            <img src="assets/arrow.png" alt="seta-apotada-para-baixo" class="arrow">
+
+            <div>
+                <img src="assets/dolar.png" alt="logo-dolar-americano">
+                <p>Dólar</p>
+                <h1>US$ 0,00</h1>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
